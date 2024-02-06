@@ -1,0 +1,251 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: 'AB:Embedded_DiscreteIO1:C:0'
+  Id: g=79e423108d69378bac9020fd079fbe79
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO1:C:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "78fd96b39acd206838a46e8fea6c4b68",
+     "Namespace": 7
+    },
+    "Body": {
+     "Filter0OffOn_0": false,
+     "Filter0OffOn_1": false,
+     "Filter0OffOn_2": false,
+     "Filter0OffOn_3": false,
+     "Filter0OnOff_4": false,
+     "Filter0OnOff_5": false,
+     "Filter0OnOff_6": false,
+     "Filter0OnOff_7": false,
+     "Filter1OffOn_0": false,
+     "Filter1OffOn_1": false,
+     "Filter1OffOn_2": false,
+     "Filter1OffOn_3": false,
+     "Filter1OnOff_4": false,
+     "Filter1OnOff_5": false,
+     "Filter1OnOff_6": false,
+     "Filter1OnOff_7": false
+    }
+   }
+  Children:
+  - Name: Filter0OffOn_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OffOn_0"
+  - Name: Filter0OffOn_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OffOn_1"
+  - Name: Filter0OffOn_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OffOn_2"
+  - Name: Filter0OffOn_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OffOn_3"
+  - Name: Filter0OnOff_4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OnOff_4"
+  - Name: Filter0OnOff_5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OnOff_5"
+  - Name: Filter0OnOff_6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OnOff_6"
+  - Name: Filter0OnOff_7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter0OnOff_7"
+  - Name: Filter1OffOn_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OffOn_0"
+  - Name: Filter1OffOn_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OffOn_1"
+  - Name: Filter1OffOn_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OffOn_2"
+  - Name: Filter1OffOn_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OffOn_3"
+  - Name: Filter1OnOff_4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OnOff_4"
+  - Name: Filter1OnOff_5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OnOff_5"
+  - Name: Filter1OnOff_6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OnOff_6"
+  - Name: Filter1OnOff_7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Filter1OnOff_7"
+- Name: 'AB:Embedded_DiscreteIO1:I:0'
+  Id: g=2cfa4abeec75c607dcb2a24e49df993c
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO1:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "222ecb5376ab67034afce8835f6dd4d6",
+     "Namespace": 7
+    },
+    "Body": {
+     "Fault": 0,
+     "Data": 0,
+     "Readback": 0
+    }
+   }
+  Children:
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Fault"
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Data"
+  - Name: Readback
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Readback"
+- Name: 'AB:Embedded_DiscreteIO1:O:0'
+  Id: g=8f48b71db0569646587ba43776e893e2
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO1:O:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "62eb19c01e2aa91eb71529148a20670d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Data": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Data"

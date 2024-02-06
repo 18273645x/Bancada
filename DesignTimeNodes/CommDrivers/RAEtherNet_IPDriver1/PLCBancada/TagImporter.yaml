@@ -1,0 +1,19 @@
+Name: TagImporter
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=9279e6e97f5c440407278bb58f782068
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///D:/OneDrive - WestRock Co/Automação WestRock/Optix Projetos/Bancada/PLCBancada.ACD"

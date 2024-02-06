@@ -1,0 +1,30 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: DesligaMotor
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.DesligaMotor"
+- Name: LigaMotor
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.LigaMotor"
+- Name: M1
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.M1"

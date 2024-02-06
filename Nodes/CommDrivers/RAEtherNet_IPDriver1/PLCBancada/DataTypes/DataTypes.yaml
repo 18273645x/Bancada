@@ -1,0 +1,166 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO1:C:0'
+  Id: g=78fd96b39acd206838a46e8fea6c4b68
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO1:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "78fd96b39acd206838a46e8fea6c4b68",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Filter0OffOn_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OffOn_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OffOn_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OffOn_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OnOff_4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OnOff_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OnOff_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter0OnOff_7",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OffOn_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OffOn_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OffOn_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OffOn_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OnOff_4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OnOff_5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OnOff_6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Filter1OnOff_7",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO1:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO1:I:0'
+  Id: g=222ecb5376ab67034afce8835f6dd4d6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO1:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "222ecb5376ab67034afce8835f6dd4d6",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Readback",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO1:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO1:O:0'
+  Id: g=62eb19c01e2aa91eb71529148a20670d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO1:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "62eb19c01e2aa91eb71529148a20670d",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO1:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
