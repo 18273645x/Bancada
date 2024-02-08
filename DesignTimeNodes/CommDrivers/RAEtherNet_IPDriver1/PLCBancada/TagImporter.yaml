@@ -17,3 +17,7 @@ Children:
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
   Value: "file:///D:/OneDrive - WestRock Co/Automação WestRock/Optix Projetos/Bancada/PLCBancada.ACD"
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
