@@ -1,0 +1,18 @@
+Name: CONVERSÃO
+Type: FolderType
+Children:
+- Name: CONVERSÃO
+  Id: g=eedfb44a104620e14041ea5a74a50992
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0

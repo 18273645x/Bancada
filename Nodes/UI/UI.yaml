@@ -103,7 +103,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"89b2866185a23e3231005ff1adcf69cd","Namespace":7}
+          Value: {"IdType":2,"Id":"28f572400f4b4c6d73e708f6c20a426c","Namespace":7}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -119,7 +119,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"e11c1af60b713abbaedd9c35614603ff","Namespace":7}
+          Value: {"IdType":2,"Id":"eedfb44a104620e14041ea5a74a50992","Namespace":7}
           Children:
           - Name: Kind
             Type: PropertyType
