@@ -1,12 +1,13 @@
 Name: Controller Tags
 Type: FolderType
 Children:
-- Name: Pressao
+- Name: PressaoBar
+  Id: g=be56a09846cfffc71995c955149fa7f7
   Type: RAEtherNetIPTag
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Pressao"
+    Value: "PressaoBar"
